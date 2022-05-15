@@ -1,0 +1,11 @@
+name: hw1_env_final
+dependencies:
+ - python = 3.8
+ - pip
+ - pip:
+   - numpy
+   - pandas
+   - sklearn
+   - torch
+   - matplotlib
+   - scipy
