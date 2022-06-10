@@ -1,11 +1,11 @@
-name: hw1_env_final
+name: hw1_env_final_4
 dependencies:
  - python = 3.8
  - pip
  - pip:
    - numpy
    - pandas
-   - sklearn
+   - scikit-learn == 0.24.1
    - torch
    - matplotlib
    - scipy

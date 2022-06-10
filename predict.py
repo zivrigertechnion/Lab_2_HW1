@@ -49,8 +49,7 @@ def read_files(directory):
 # In[3]:
 
 
-database = pkl.load(open("database.pkl","rb"))
-median_db = database.median()
+median_db = pkl.load(open("median_database.pkl","rb"))
 
 
 # In[4]:
@@ -151,3 +150,4 @@ pred_df.sort_values(["ids"],inplace=True)
 
 pred_df.to_csv("prediction.csv",index=False,header=False)
 
+#Lab_2_HW1
